@@ -15,7 +15,7 @@ const App = () => {
         <Header />
 
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/ecommers-react-tailwind/" element={<Home />} />
           <Route path="/product/:id" element={<ProductDetails />} />
         </Routes>
 
